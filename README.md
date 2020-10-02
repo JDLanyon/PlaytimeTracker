@@ -40,4 +40,4 @@ Now create a shortcut in your startups folder
  - Give more information about playtime (set targets on graphs, etc)
  
 ### Bugs / Possible bugs
- - Graph problems when dealing with more than a month
+ - Interpolation between days (not running the program for many days may result in a spike in playtime when run eventually)

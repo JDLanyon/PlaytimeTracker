@@ -23,9 +23,9 @@ with open('PlaytimeData.csv', 'r') as csvfile:
 for i in range(1, len(y)):
     yDelta.append(y[i] - y[i-1])
 # set day 1 (to find deltas for x
-day1 = int(x[0].strftime("%Y%m%d"))
+day1 = x[0]
 for date in x:
-    xDelta.append(int(date.strftime("%Y%m%d")) - day1)
+    xDelta.append((date - day1).days)
 
 
 # Graphs
